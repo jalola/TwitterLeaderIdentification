@@ -7,4 +7,3 @@ apiKey <-  "--------------------------------------------"
 apiSecret <- "--------------------------------------------"
 
 setup_twitter_oauth(apiKey, apiSecret, access_token, access_secret)
-c
