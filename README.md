@@ -33,4 +33,4 @@
 
 ## Contact
 
-email: waterstorm64@gmail.com
+* email: waterstorm64@gmail.com
