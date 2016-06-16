@@ -30,3 +30,7 @@
 * algorithms.R: implementing main algorithms regarding similarity and topsis.
 
 * utils.R: mainly responsible for database, actual calling Twitter APIs, reading and writing data. 
+
+## Contact
+
+email: waterstorm64@gmail.com
