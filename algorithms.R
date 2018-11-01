@@ -65,7 +65,7 @@ cleanScreenNames <- function(keywords){
     
     #allScreenNames <- getCleanScreenNames(keywords, F)
     #allScreenNames[640:642] <- c("MuscleNerd", "iphone_dev", "saurik")
-    write.csv(allScreenNames, keywordCleanScreenNameFilePath(keywords, withRT = F), row.names=F)
+    write.csv(cleanScreenNames, keywordCleanScreenNameFilePath(keywords, withRT = F), row.names=F)
 }
 
 filterUsersByNumberOfRTs <- function(keywords){
