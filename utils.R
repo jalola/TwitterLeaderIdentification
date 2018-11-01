@@ -321,7 +321,7 @@ downloadTweets <- function(aKeyword, geos){
             downloadedTweets$created <- strftime(downloadedTweets$created, '%Y-%m-%d %H:%M:%S')
             tweetsFromDatabase <- rbind(downloadedTweets, NULL)
             write.csv(tweetsFromDatabase, fileName, row.names=F)
-            print(paste0("tweet(updated) in databse: ", nrow(tweetsFromDatabase)), ", to file: ", fileName)
+            print(paste0("tweet(updated) in databse: ", nrow(tweetsFromDatabase), ", to file: ", fileName))
                   
             #update screenname file
             screenNames <- getScreenNames(aKeyword)
